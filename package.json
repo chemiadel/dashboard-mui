@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/styles": "^5.4.2",
+    "@mui/types": "^7.1.2",
+    "@mui/x-data-grid": "^5.5.1",
+    "@mui/x-data-grid-generator": "^5.5.1",
+    "@mui/x-data-grid-pro": "^5.5.1",
+    "graphql": "^16.3.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "prettier": "^2.5.1",
+    "typescript": "latest"
+  }
+}
